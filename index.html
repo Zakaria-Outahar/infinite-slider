@@ -7,9 +7,27 @@
     <title>Infinite Slider</title>
     <link rel="stylesheet" href="./style.css">
     <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Lexend:wght@300;400;500;600;700&display=swap" rel="stylesheet">
 </head>
 
-<body class="w-screen h-screen bg-gray-700">
-    
+<body class="w-screen h-screen bg-gray-700 flex items-center">
+    <div class="w-4/6 h-4/6 bg-[#fdfdfd] mx-auto p-10 rounded flex items-center flex-col justify-center">
+        <h1 class="text-5xl font-[Lexend] font-normal text-center">Je leur ai fait confiance</h1>
+
+        <div class="w-[90%] mx-auto overflow-hidden">
+            <div class="relative w-[80vw] h-56">
+                <ul class="w-full flex items-center absolute left-0 top-1/2 -translate-y-1/2">
+                    <li class="w-16 mr-[calc(40px_+_5vw)] shrink-0"><img class="w-full" src="./img/google.svg" alt="logo google"></li>
+                    <li class="w-52 mr-[calc(40px_+_5vw)] shrink-0"><img class="w-full" src="./img/microsoft.svg" alt="logo microsoft"></li>
+                    <li class="w-36 mr-[calc(40px_+_5vw)] shrink-0"><img class="w-full" src="./img/amazon.svg" alt="logo amazon"></li>
+                    <li class="w-20 mr-[calc(40px_+_5vw)] shrink-0"><img class="w-full" src="./img/apple.svg" alt="logo apple"></li>
+                    <li class="w-44 mr-[calc(40px_+_5vw)] shrink-0"><img class="w-full" src="./img/samsung.svg" alt="logo samsung"></li>
+                    <li class="w-16 mr-[calc(40px_+_5vw)] shrink-0"><img class="w-full" src="./img/facebook.svg" alt="logo facebook"></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <script src="./script.js"></script>
 </body>
 </html>
