@@ -1,5 +1,3 @@
-carousel();
-
 function carousel(){
     const carouselSlider = document.querySelector('.carousel-slider');
     const list = document.querySelector('.carousel-list');
@@ -47,3 +45,7 @@ function carousel(){
         speed = 1;
     })
 }
+
+setTimeout(() => {
+    carousel();
+}, 1000);
